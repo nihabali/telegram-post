@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-TMDB Movie/Series Post Template Generator
+TMDB Movie/Series Post Template Generator with Telegram Markdown Links
 Usage: python3 tmdb_poster_maker.py
 """
 
@@ -154,11 +154,11 @@ def main():
             output.append(f"├ 🎵 Audio - Dual | {audio_text} #Official")
             output.append(f"├ 📼 Quality - {quality_text}")
             output.append(f"├ 🎭 Genres - {genres}")
-            output.append("├ 🧩 Ad Skip | ⬇️ Download Tutorial")
+            output.append(f"├ 🧩 [AD Skip](https://telegra.ph/How-to-Skip-Ads-and-Download-Easily-04-04) | [Download Tutorial](https://telegra.ph/How-to-Download-from-GDFLIX-Fast--Direct-Links-04-04)")
             output.append("╰──────────────────────")
             output.append("╭──────────────────────")
             output.append("├ 📢 Backup Channel & Info Bot:")
-            output.append("├ 📌 Channel | Bot")
+            output.append("├ 📌 [Channel](https://t.me/+2jrpUqXgr-hmOWM1) | [Bot](http://t.me/othersottinfobot)")
             output.append("╰──────────────────────")
             print("\n\nFinal Template (copy manually):\n")
             print("\n".join(output))
@@ -199,7 +199,7 @@ def main():
             output = []
             output.append(f"🎬 Series Title: {title}")
             output.append("╭──────────────────────")
-            output.append(f"├ 📝 Session - {season_choice}")
+            output.append(f"├ 📝 Season - {season_choice}")
             output.append(f"├ 📅 Release - {release_fmt}")
             output.append(f"├ 🏷️ Status - {status_text}")
             output.append(f"├ ⭐ Ratings - {rating_text}")
@@ -207,11 +207,11 @@ def main():
             output.append(f"├ 🎵 Audio - Dual | {audio_text} #Official")
             output.append(f"├ 📼 Quality - {quality_text}")
             output.append(f"├ 🎭 Genres - {genres}")
-            output.append("├ 🧩 Ad Skip | ⬇️ Download Tutorial")
+            output.append(f"├ 🧩 [AD Skip](https://telegra.ph/How-to-Skip-Ads-and-Download-Easily-04-04) | [Download Tutorial](https://telegra.ph/How-to-Download-from-GDFLIX-Fast--Direct-Links-04-04)")
             output.append("╰──────────────────────")
             output.append("╭──────────────────────")
             output.append("├ 📢 Backup Channel & Info Bot:")
-            output.append("├ 📌 Channel | Bot")
+            output.append("├ 📌 [Channel](https://t.me/+2jrpUqXgr-hmOWM1) | [Bot](http://t.me/othersottinfobot)")
             output.append("╰──────────────────────")
             print("\n\nFinal Template (copy manually):\n")
             print("\n".join(output))
